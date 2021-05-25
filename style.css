@@ -1,0 +1,252 @@
+
+body{
+      
+    height: 100vh;
+    background-color: rgba(49, 180, 114, 0);
+    line-height: 1.6;
+    overflow: hidden;
+
+}
+
+.container{
+    /* float: left; */
+    position: absolute;
+    display: block;
+    width: 100%;
+    text-align: center;
+    height: 100%;
+    top: 0px;;
+    left: 0;
+    right: 0;
+    overflow-y: scroll;
+    scroll-behavior:smooth;
+    scroll-snap-type: y mandatory;
+  }
+
+  .navbar{
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    display: flex;
+    width:100%;
+    height:60px;
+    background: rgba(56, 74, 124, 0.7);
+  }
+
+  .navbar ul{
+    display: flex;
+    list-style: none;
+    width: 100%;
+    justify-content: center;
+  }
+
+  .navbar ul li{
+    margin: 0 3rem;
+    padding: 1rem;
+  }
+  .navbar ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: grey;
+  }
+  .navbar ul li a:hover {
+    color: rgb(54, 93, 109);
+  }
+/* 
+  section{
+    scroll-snap-align: center;
+  } */
+  .slider {
+    height: 80vh;
+    /* background-color: rgb(39, 41, 43); */
+    top: 0cm;
+    overflow: hidden;
+    right: 0;
+  
+  }
+
+  .slider1{
+    height: 150vh;
+    background-color: rgb(63, 104, 138);
+    top: 0cm;
+    overflow: hidden;
+    right: 0;
+  }
+
+  aboutMe{
+   background-color: rgb(37, 97, 77);
+  }
+
+  .textContainer{
+    margin:auto;
+
+    width: 55vh;
+    height: 15vh;
+  }
+
+  .headingcontainer{
+    height: 100%;
+    width: 10%;
+    background: rgb(42, 98, 136);
+    margin: 0%;   
+  }
+
+  .cellContainer{
+
+    height:  140vh;
+    width:100%;
+    background-color: transparent;
+    margin: auto;
+  }
+
+  .projectContainer{
+    height: 350vh;
+    /* width: 180vh; */
+    min-width: 50vh;
+    max-width: 180vh;
+/* 
+    min-height: 600vh;
+    max-height: 700vh; */
+    align-content: left;
+    background-color: rgb(44, 50, 105);
+    margin: 0 auto;
+  }
+  
+
+  .block {
+    background: gray;
+    height: 461px;
+    width: 40%; /* This is the width of each cell */
+    float: left;
+    margin: 50px;
+    min-width: 420px;
+    max-width: 420px;
+   
+  
+}
+
+
+  div.polaroid {
+    width: relative;
+    height: relative;
+    background-color: rgb(105, 67, 67);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
+  
+  }
+  
+  .containerI {
+    text-align: center;
+    /* padding: 5px 10px; */
+    color:rgb(151, 115, 67);
+    /* display: inline-block; */
+    list-style-type: none;
+  }
+.containerI li {
+  display: inline-block;
+  font-size: 19px;
+}
+
+  .relcel{
+    position: relative;
+    height: 200%;
+    width: 100%;
+    top:0cm;
+    left: 0;
+    right: 0;
+  }
+
+  .abs {
+    position: absolute;
+  }
+  .rel {
+    position: relative;
+    height: 980px;
+    background-color: rgb(39, 41, 43);
+    width: 100%;
+    top:0cm;
+    left: 0;
+    right: 0;
+
+  }
+  .slider img {
+      width: 100%;
+  }
+
+
+  
+  .content{
+    /* background-color: rgb(23, 107, 103); */
+    top: 0cm;
+    /* height:100%; */
+
+    height: fit-content;
+    background-color: rgb(63, 71, 146);
+    align-content: center;
+ 
+    overflow: hidden;
+
+    /* overflow: hidden; */
+
+  
+  }
+  
+  .header{
+      color: rgb(160, 113, 43);
+      border-style: solid;
+      border-width: 40px;
+      border-color: rgb(44, 50, 105);
+  }
+
+  a:link {
+    color:rgb(37, 36, 34);
+    background-color: transparent;
+    text-decoration: none;
+  }
+  a:visited {
+    color: rgb(119, 50, 61);
+    background-color: transparent;
+    text-decoration: none;
+  }
+
+  .hide {
+    display: none;
+
+  }
+      
+  .myDIV:hover + .hide {
+    display: block;
+    color: rgb(71, 216, 226);
+    display: inline-block;
+  }
+
+  .align{
+    Text-align: left;
+  }
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
